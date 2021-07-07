@@ -66,4 +66,14 @@ var carName = "Volvo";
 console.log("El nombre del carro es:" +carName);
 
 
+let p1 = 96;
+let p2 = 2;
+function myFunction(p1, p2){
+  return p1 * p2;
+}
+
+console.log("La multiplicación de p1 * p2 es: " +myFunction(p1, p2));
+
+
+
 
