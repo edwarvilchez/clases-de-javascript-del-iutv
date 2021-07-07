@@ -1,0 +1,46 @@
+/*agregamos estilos personalizados al proyecto*/
+
+/*este estilo ubicará  el contenido de la etiqueta body estableciendo un relleno desde arriba de 50px*/
+body{
+	padding-top: 50px;
+}
+
+/*este estilo ubicará el contenido del div area-contenido en un relleno superior e inferior de 40px,
+izquierdo y derecho de 15px*/
+.area-contenido{
+	padding: 40px 15px;
+}
+
+
+/*este estilo ubicará el contenido de esta etiqueta en margenes iguales para los 4 lados de 25px*/
+.area-entrada{
+	margin: 25px;
+}
+
+
+/*estas clases las manipularemos de forma dinamica, con JS*/
+/*este estilo modificará el comportamiento de los elementos dentro de ella*/
+.texto-tarea{
+	display: flex;
+	align-items: center;
+	height: 40px;
+}
+
+.oculto{
+	display: none;
+}
+
+/*estilo para el icono usado para el proceso de eliminar o borrar tarea del listado*/
+.icono-area-borrado{
+	display: flex;
+	align-items: center;
+	height: 40px;
+}
+
+.icono-borrado{
+	color: red;
+}
+
+.tarea-terminada{
+	text-decoration: line-through;
+}
