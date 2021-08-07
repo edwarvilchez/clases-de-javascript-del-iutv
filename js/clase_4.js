@@ -35,13 +35,3 @@ nombre = persona.fullName();
 
 console.log(nombre);
 
-
-
-
-
-// JavaScript Object Notation (JSON)
-
-
-
-
-// alert("It works");
